@@ -1,0 +1,31 @@
+body {
+    background: linear-gradient( rgb(219, 192, 226),rgb(203, 111, 226)),white;
+    background-size: 2000px;
+    background-repeat: no-repeat;
+    
+}
+
+.etiquetas {
+    border: solid 3px red;
+    width: auto;
+}
+
+li {
+    color: white;
+    display: inline-flex;
+    justify-content: center;
+    align-content: center;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 2px;
+    border: 1px solid rgb(175, 5, 104);
+    background: linear-gradient(rgba(238, 194, 216, 0.671) 0%, rgb(221, 50, 155) 25%, rgb(184, 13, 141) 50%, rgba(168, 6, 101, 0.877) 75%, rgb(171, 108, 187) 100%);
+    cursor: pointer;
+    box-shadow: 1px 5px 4px rgba(26, 16, 16, 0.651); /* esto es para dar sombra debajo */
+    
+}
+
+li:hover {
+    background-color: rgb(160, 0, 93);
+    box-shadow: 1px 2px 2px rgba(26, 16, 16, 0.651); /* esto es para dar sombra debajo */
+}

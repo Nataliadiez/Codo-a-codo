@@ -1,0 +1,10 @@
+* {
+    list-style: none;
+}
+
+.imagenes {
+    display: flex;
+    justify-content: space-around;
+    flex-direction:row;
+    
+}

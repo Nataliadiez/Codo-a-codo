@@ -1,0 +1,40 @@
+* {
+    padding: 0;
+    margin: 0;
+    
+}
+
+body {
+    background: linear-gradient(rgba(9, 30, 122, 0.699),rgba(147, 214, 253, 0.74),rgb(197, 209, 223));
+    background-repeat:no-repeat;
+    background-size: 2500px;
+    margin-bottom: 469px;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+#formulario {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.items-form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 10px;
+    
+}
+
+h4{
+    margin-right: 20px;
+}
+

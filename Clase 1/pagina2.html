@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./Estilo.css">
+</head>
+<body>
+    
+    <h2>Menú</h2>
+    <!-- Esto es un formulario -->
+    <form action="./pagina2.html" method="post"> <!-- con Action podemos decir a dónde va el formulario -->
+        <!-- si quiero dejar la info en mi página, uso post -->
+        
+        <label for="">Usuario</label>
+        <input type="text" name="usuario" id="usuario">
+        <label for="">Password</label>
+        <input type="password" name="password" id="password">
+       <input type="submit" value="Enviar">
+    </form>
+
+    <h3>Provincia</h3>
+    <label for="radio">Gran Buenos Aires</label>
+    <input type="radio" name="radio" id="radio">
+    <label for="radio">Chubut</label>
+    <input type="radio" name="radio" id="radio">
+
+    <select name="" id="">
+        <option value="">Idem</option>
+        <option value="">Idem</option>
+        <option value="">Idem</option>
+        <option value="">Idem</option>
+    </select>
+
+    <label for="">Lista HTML</label>
+    <label for="">Body</label>
+    <input type="checkbox" name="" id="">
+    <label for="">Script</label>
+    <input type="checkbox" name="" id="">
+    <label for="">Head</label>
+    <input type="checkbox" name="" id="">
+    <input type="submit" value="Entrar">
+    <!-- Prueba!123 -->
+
+    <!-- con checkbox podes elegir varias opciones
+    con radius solo una opción -->
+
+    <!-- La diferencia entre los métodos get y post radica en la forma de enviar
+     los datos a la página cuando se pulsa el botón “Enviar”. Mientras que el método
+     GET envía los datos usando la URL, el método POST los envía de forma que no 
+     podemos verlos (en un segundo plano u "ocultos" al usuario). -->
+   
+    <ul> <!-- Esto es una barra de navegación -->
+        <li><a href="./Index.html">Inicio</a></li>
+        <li><a href="./pagina2.html">Página 2</a></li>
+    </ul>
+    <h1>Esta es mi segunda página</h1>
+    <a href="./Index.html">Inicio</a>
+    <a href="https://www.google.com/" target="_blank">Ir a google</a> <!-- Target es para abrir una nueva pestaña -->
+<table border="1">
+    <thead>
+        <tr>
+            <th>Nombre</th>
+            <th>Apellido</th>
+            <th>Curso</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Luis</td>
+            <td>Navas</td>
+            <td>Java</td>
+        </tr>
+        <tr>
+            <td>Javer</td>
+            <td>Herrera</td>
+            <td>Java</td>
+        </tr>
+        <tr>
+            <td>Luis</td>
+            <td>Navas</td>
+            <td>Java</td>
+        </tr>
+        <tr>
+            <td>Javer</td>
+            <td>Herrera</td>
+            <td>Java</td>
+        </tr>
+    </tbody>
+    
+</table>
+<h2>Video Guts Theme</h2>
+    <!-- iFrame es para colocar un video -->
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/w1o4O2SfQ5g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+    <!-- Cuando se descarga una imagen de google, el uso
+    de URL se llama ABSOLUTA
+    Si la imagen esta dentro de tu carpeta la URL es RELATIVA -->
+    <div class="imagenes">
+    <h3>Ruta RELATIVA</h3>
+    <img src="./florcitas.jpg" alt="Flores" width="500px">
+    </div>
+
+    <div class="imagenes">
+    <h3>Ruta ABSOLUTA</h3>
+    <img src="https://estaticos.muyinteresante.es/media/cache/1140x_thumb/uploads/images/gallery/5e723bc25cafe8a3f89605a5/flores_0.jpg" alt="Flores" width="500px">
+    </div>
+    <br><a href="./Anna Karenina - Tolstoi.pdf" target="_blank" download>Descargue Anna Karenina de Tolstoi</a>
+
+    <!-- target blank para abrir nueva pestaña -->
+
+
+    
+    
+    
+    <!-- puedo subir un video con la etiqueta VIDEO con una ruta relativa -->
+</body>
+</html>
