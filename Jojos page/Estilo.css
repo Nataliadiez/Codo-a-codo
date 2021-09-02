@@ -1,15 +1,53 @@
+@import url(https://allfont.es/allfont.css?fonts=arial-narrow-bold-italic);
+@font-face{
+    font-family:SF Fedora Shadow; 
+    src: url(./Fuentes/SF\ Fedora\ Shadow.ttf);
+}
+
 * {
     padding: 0;
     margin: 0;
-}
-
-#logo {
-    background-image: url(./Images/logo-jojos.jfif);
-    background-repeat: no-repeat;
-    background-size: 1500%;
-    display: inline-block;
-
     
 }
 
+header {
+    margin-top: -60px;
+    background-image: url(./Images/jojos.jfif);
+    height: 650px;
+    width: 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+
+#logo-inicio {
+    display: flex;
+    align-items: left;
+    
+}
+
+#imagen-inicio {
+    width: 800px;
+}
+
+
+/* #titulo-jojos {
+    font-family: SF Fedora Shadow;
+    font-size: 120px;
+    color: red;
+    
+}
+
+#titulo-bizarre1 {
+    font-family: 'Arial Narrow Bold Italic', arial;
+    font-style: italic;
+    font-size: 60px;
+}
+#titulo-bizarre2 {
+    font-family: 'Arial Narrow Bold Italic', arial;
+    font-style: italic;
+    font-size: 60px;
+    
+} */
