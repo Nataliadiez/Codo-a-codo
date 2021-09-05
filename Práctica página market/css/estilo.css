@@ -8,7 +8,7 @@
 }
 
 header {
-    background-image: url(./imagenes/Banner\ the\ market.png);
+    background-image: url(../imagenes/Banner\ the\ market.png);
     height: 300px;
     display: flex;
     align-items: flex-end;

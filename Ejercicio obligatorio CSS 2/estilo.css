@@ -18,14 +18,14 @@ body {
 
 #contenedor {
     display: flex;
-    justify-content: center;
+    justify-content: left;
 }
 
 #contenedor .cuadros{
     background-color: red;
-    height: 200px;
-    width: 200px;
-    margin: 4px;
+    height: 300px;
+    width: 100%;
+    margin: 7px;
 }
 
 #contenedor #negro {
