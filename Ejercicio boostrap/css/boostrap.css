@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color:white;
+}
+
+
+section{
+    justify-content: center;
+}
+
+section .card{
+    width: 32.8% !important;
+}
+
+.card-img-top{
+    width: 100%;
+}
+
+.card-subtitle{
+    font-size: 85%;
+}
+
+#section-cards{
+    margin-bottom: 2% !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0.1%;
+    padding-left: 1.4%;
+}
+
+#section-form {
+ margin-top: 1%;
+}
