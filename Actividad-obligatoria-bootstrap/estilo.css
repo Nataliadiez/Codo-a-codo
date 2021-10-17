@@ -3,6 +3,10 @@
     margin: 0;
 }
 
+ul li, p{
+    font-size: 100%;
+}
+
 /* Nav bar */
 .navbar .img-responsive{
     width: 8%;
