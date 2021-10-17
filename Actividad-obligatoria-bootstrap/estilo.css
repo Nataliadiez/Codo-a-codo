@@ -3,9 +3,6 @@
     margin: 0;
 }
 
-ul li, p{
-    font-size: 120%;
-}
 
 /* Nav bar */
 .navbar .img-responsive{
@@ -217,6 +214,12 @@ header .navbar{
 }
 
 /* Footer */
+
+footer{
+    width: 100%;
+    bottom: 0px;
+}
+
 #footer{
     display: flex;
     margin-top: 20px;
