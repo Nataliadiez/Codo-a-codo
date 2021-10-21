@@ -1,0 +1,329 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* Nav bar */
+.navbar .img-responsive{
+    width: 8%;
+}
+
+header .navbar{
+    height: 80px;
+    background-color: rgb(59, 58, 63);
+}
+
+.collapse{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 25%;
+    
+}
+
+#comprar-tickets{
+    color: green;
+}
+
+.navbar .img-responsive{
+    margin-left: 5%;
+}
+
+/* banner inicio */
+
+#banner-inicio{
+    color: white;
+}
+
+#img-banner{
+    color: white;
+    width: 100%;
+    margin-top: -10%;
+}
+
+#texto-banner{
+    display: flex;
+    flex-direction: column;
+    margin-top: -26%;
+    align-items: flex-end;
+    margin-left: 50%;
+}
+
+#texto-banner h1{
+    text-align: right;
+}
+
+#texto-banner p{
+    text-align: right;
+}
+
+#button-orador{
+    border: solid 1.5px white;
+    color: white;
+}
+
+#button-tickets{
+    color: white;
+    background-color: rgb(9, 163, 86);
+}
+
+/* Sección Cards */
+
+
+#second-section {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+    text-align: center;
+}
+
+/* #second-section .cards{
+
+} */
+
+#cards-section{
+    display: flex;
+}
+
+#cards-section .card{
+    justify-content: space-around;
+    display: flex;
+    margin-left: 2%;
+    margin-right: 2%;
+    text-align: left;
+}
+
+#second-section #titulos-card-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#second-section #titulos-card-section h1{
+   margin-top: -5%;
+}
+
+#cards-section .card button{
+    padding: 1%;
+    font-size: 0.8rem;
+    font-weight: bold;
+    padding-top: 0%;
+    padding-bottom: 0%;
+    border:none;
+}
+
+#cards-section .card .btn-info,.btn-secondary,.btn-danger{
+    color: white;
+}
+
+
+
+.inicio-card{
+    margin-top: -380px;
+    width: 42% !important;
+    background-color: rgba(255, 0, 0, 0);
+    border: none;
+    text-align: right;
+    margin-left: 48%;
+    position: absolute;
+}
+
+#btn-card-inicio{
+    display: flex;
+    justify-content: flex-end;
+}
+
+#btn-card-inicio button{
+    margin-left: 2%;
+}
+
+#descripcion-honolulu{
+    background-color: rgb(57, 56, 63);
+    color: white;
+    padding: 1%;
+}
+
+#img-honolulu{
+    width: 100%;
+    padding: 0;
+    padding-right: 1px;
+}
+
+#section-honolulu{
+    margin-top: 2%;
+    display: flex;
+    flex-direction: row;
+}
+
+/* Section form */
+
+#charla-ignite{
+    text-decoration: none;
+    color: black;
+    border-bottom:2px dotted #1f1f1f;
+}
+
+#formulario{
+    display: flex;
+    flex-direction: column;
+}
+
+#titulos-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+#btn-formulario{
+    background-color: rgb(137, 190, 83);
+    border: none;
+    width: 100%;
+}
+
+#mensaje-textarea{
+    margin-top: -15px;
+    margin-bottom: 25px;
+}
+
+#input-form{
+    display: flex;
+    margin-bottom: 2%;
+    
+}
+
+#input-form input{
+    width: 98%;
+    
+}
+
+#inputApellido{
+    margin-left: 10px;
+}
+
+#titulos-form h1 {
+    margin-top: -18px;
+}
+
+#formulario-orador{
+    width: 60%;
+}
+
+/* Footer */
+
+footer{
+    width: 100%;
+    bottom: 0px;
+}
+
+#footer{
+    display: flex;
+    margin-top: 50px;
+    height: 80px;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    align-self: flex-end;
+}
+
+#fondo-footer{
+    background: linear-gradient(40deg,rgb(25, 53, 70),rgb(39, 76, 99),rgb(49, 108, 145));
+    color: white;
+}
+
+#footer p{
+    display: flex;
+    width: 10%;
+    text-align: center;
+}
+
+.btn-codo{
+    background-color: rgb(143, 202, 49);
+    color:white;
+    width: 99%;
+}
+
+/* Sección de comprar tickets de JS */
+
+
+.card-group .card {
+    width: 500px !important;
+    height: 200px;
+}
+
+
+
+/* Media queries */
+
+@media (max-width: 1350px) {
+    .collapse{
+        margin-left: 20%;
+    }
+}
+
+
+@media (max-width: 1180px) {
+    .collapse{
+        margin-left: 15%;
+    }
+    
+}
+
+@media (max-width: 1100px) {
+    .collapse{
+        margin-left: 10%;
+    }
+}
+
+@media (max-width: 1025px) {
+    .collapse{
+        margin-left: 5%;
+    }
+
+    .inicio-card{
+        margin-top: -380px;
+        width: 50% !important;
+        margin-left: 40%;
+    }
+}
+
+@media (max-width: 940px) {
+
+    .inicio-card{
+        margin-top: -320px;
+        width: 50% !important;
+        margin-left: 40%;
+    }
+}
+
+@media (max-width: 750px) {
+
+    .inicio-card{
+        margin-top: -320px;
+        width: 70% !important;
+        margin-left: 20%;
+    }
+}
+
+@media (max-width: 660px) {
+
+    .inicio-card{
+        margin-top: -280px;
+        width: 80% !important;
+        margin-left: 10%;
+    }
+}
+
+@media (max-width: 570px) {
+
+    .inicio-card{
+        margin-top: -250px;
+        width: 100% !important;
+        margin-left: -5%;
+    }
+}
+
