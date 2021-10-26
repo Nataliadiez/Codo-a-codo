@@ -210,6 +210,7 @@ header .navbar{
 
 #formulario-orador{
     width: 60%;
+    margin-bottom: 150px;
 }
 
 /* Footer */
@@ -217,6 +218,7 @@ header .navbar{
 footer{
     width: 100%;
     bottom: 0px;
+    position: fixed;
 }
 
 #footer{
@@ -255,6 +257,9 @@ footer{
     height: 200px;
 }
 
+#contenedor-comprar-tickets{
+    margin-bottom: 120px;
+}
 
 
 /* Media queries */

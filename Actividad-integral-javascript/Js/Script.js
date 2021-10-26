@@ -101,24 +101,6 @@ const comprarTickets = () => {
         </div>
     </div>
 
-        <!-- Modal -->
-    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-        <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">Ticket N° </h5>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body">
-            ...
-        </div>
-        <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
-            <button type="button" class="btn btn-primary">Confirmar compra</button>
-        </div>
-        </div>
-    </div>
-    </div>
     `;
     document.querySelector("#botonCalcular").addEventListener("click", () => {
        let inputs = document.querySelectorAll("input");
@@ -138,14 +120,12 @@ const comprarTickets = () => {
 };
 
 const calcularValor = (descuento, cantidadEntrada) => {
-    crearNumTicket(numAleatorio)
+    //crearNumTicket(numAleatorio)
     
     let resultado = 0
     let alertTotalCompra = document.querySelector("#totalCompra")
-    let numTicket = document.querySelector("#exampleModalLabel")
-    for (let i= 0; i < 8; i++) {
-        numTicket.innerHTML += numAleatorio
-    }
+    /* let numTicket = document.querySelector("#exampleModalLabel")
+        numTicket.innerHTML += numAleatorio */
     
     //faltaban 28 minutos de clase
     
@@ -164,8 +144,30 @@ const calcularValor = (descuento, cantidadEntrada) => {
 }
 
 
-const crearNumTicket = () => {
+/* const crearNumTicket = () => {
     let numAleatorio = Math.floor(Math.random() * (1 - 100)) + 1;
     return numAleatorio
     
-}
+} */
+
+
+
+
+       /*  <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+        <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Ticket N° </h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            ...
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+            <button type="button" class="btn btn-primary">Confirmar compra</button>
+        </div>
+        </div>
+    </div>
+    </div> */
