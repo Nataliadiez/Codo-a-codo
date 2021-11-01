@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#titulo-javaScript{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(45deg,rgb(5, 21, 34),rgb(22, 74, 92),rgb(100, 37, 37));
+    color: white;
+    height: 70px;
+}
+
+.container-fluid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+button{
+    margin-top: 1%;
+}
+
+input {
+    border-radius: 50px;
+    width: 80px;
+    margin-bottom: 5%;
+    text-align: center;
+}
+
+
+#principal {
+    display: flex;
+    justify-content: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#formulario-vet{
+    margin-top: 2%;
+}
+
+#formulario-vet input{
+    text-align: left;
+}
